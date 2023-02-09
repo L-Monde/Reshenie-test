@@ -1,0 +1,23 @@
+{
+  "name": "reshenie-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ctb": "css-to-bem-file-structure"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L-Monde/Reshenie-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/L-Monde/Reshenie-test/issues"
+  },
+  "homepage": "https://github.com/L-Monde/Reshenie-test#readme",
+  "devDependencies": {
+    "css-to-bem-file-structure": "^0.0.2"
+  }
+}

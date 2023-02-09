@@ -1,0 +1,19 @@
+.form__input {
+  margin-top: 50px;
+  height: 36px;
+  border: none;
+  border-bottom: 1px solid #2b689b;
+}
+.form__input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: rgba(107, 149, 185, 1);
+}
+
+@media screen and (max-width: 475px) {
+  .form__input {
+    margin-top: 30px;
+  }
+}

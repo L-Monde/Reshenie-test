@@ -1,0 +1,19 @@
+.form__button {
+  width: 270px;
+  height: 60px;
+  margin: 30px auto 0;
+  background-color: #ffe292;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form__button:disabled {
+  background-color: rgb(197, 197, 197);
+  cursor: default;
+}
+@media screen and (max-width: 650px) {
+  .form__button {
+    width: 200px;
+    height: 55px;
+  }
+}

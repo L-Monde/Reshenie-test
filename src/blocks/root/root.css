@@ -1,0 +1,7 @@
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+  color: rgba(43, 104, 155, 1);
+}

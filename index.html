@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/pages/index.css" />
+    <title>Test</title>
+  </head>
+  <body>
+    <section class="popup">
+      <img src="./src/images/popup__logo.svg" alt="123" class="popup__logo" />
+      <h1 class="popup__title">Изменение пароля</h1>
+      <form class="form" name="passwordEdit" novalidate>
+        <input
+          id="login"
+          type="text"
+          class="form__input form__input_login"
+          name="form-login"
+          placeholder="* Email / Логин"
+          minlength="6"
+          maxlength="20"
+          required
+        />
+        <span id="login-error" class="form__error"></span>
+        <input
+          id="safeword"
+          type="text"
+          class="form__input form__input_safeword"
+          name="form-safeword"
+          placeholder="* Контрольная строка"
+          required
+        />
+        <span id="safeword-error" class="form__error"></span>
+        <input
+          id="password"
+          type="text"
+          class="form__input form__input_new-password"
+          name="form-password"
+          placeholder="* Новый пароль"
+          minlength="6"
+          required
+        />
+        <span id="password-error" class="form__error"></span>
+        <input
+          id="password-repeat"
+          type="text"
+          class="form__input form__input_new-password-repeat"
+          name="form-password-repeat"
+          placeholder="* Подтверждение пароля"
+          required
+        />
+        <span id="password-repeat-error" class="form__error"></span>
+        <p class="form__text">* Обязательные поля</p>
+        <button type="submit" class="form__button">Изменить пароль</button>
+      </form>
+      <div class="links">
+        <a class="link" href="#">Зарегистрироваться</a>
+        <a class="link" href="#">Войти</a>
+      </div>
+    </section>
+    <script src="./src/pages/index.js"></script>
+  </body>
+</html>

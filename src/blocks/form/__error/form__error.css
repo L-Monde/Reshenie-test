@@ -1,0 +1,5 @@
+.form__error {
+  max-height: 21px;
+  display: none;
+  color: #ff0000;
+}
